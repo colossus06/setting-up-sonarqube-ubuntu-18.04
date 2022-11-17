@@ -26,6 +26,9 @@ sudo usermod -aG docker $USER
 
 ### docker compose file
 
+
+[docker-compose.yml](https://github.com/colossus06/setting-up-sonarqube-ubuntu-18.04/blob/main/docker-compose.yml)
+
 ### References
 
 [](https://docs.sonarqube.org/latest/requirements/requirements/)
