@@ -1,7 +1,3 @@
-
-# docker-compose.yml
-
-```
 version: "3"
 services:
   sonarqube:
@@ -38,5 +34,3 @@ volumes:
   sonarqube_logs:
   postgresql:
   postgresql_data:
-  
-```
