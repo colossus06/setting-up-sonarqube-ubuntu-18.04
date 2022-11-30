@@ -34,3 +34,14 @@ sudo usermod -aG docker $USER
 [](https://docs.sonarqube.org/latest/requirements/requirements/)
 
 [](https://unix.stackexchange.com/questions/621023/how-to-display-current-vm-map-max-map-count-value)
+
+
+----
+
+
+### Alternative
+
+`docker pull sonarqube:lts-community`
+
+`docker run --name sanarqube -h sonarqube -p 8084:9000 -d sonarqube`
+
