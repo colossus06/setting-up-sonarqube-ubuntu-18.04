@@ -43,5 +43,9 @@ sudo usermod -aG docker $USER
 
 `docker pull sonarqube:lts-community`
 
-`docker run --name sanarqube -h sonarqube -p 8084:9000 -d sonarqube`
+`docker run --name my-sonar -h sonarqube -p 8084:9000 -d sonarqube`
+
+`docker stop my-sonar`
+
+`docker start my-sonar`
 
